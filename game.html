@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <header>
+        <div id="countOfSteps">Осталось ходов: 10</div>
+    </header>
+    <main>
+
+        <div class="check">
+            <div id="word"></div>
+            <input id="input" type="text" width="1px">
+            <button class="bCheck" onclick="check()">Проверить</button>
+            <br>
+        </div>
+
+        <div id="wrongLetters"></div>
+        <div id="Answer"></div>
+        <div id="image">
+            <img src="img11.png" alt="Виселица">
+        </div>
+
+        <img id="win" src="winImage.png" alt="">
+        <script src="script2.js"></script>
+    </main>
+    <footer>
+        <button class="ToStart" onclick="index()">Вернуться в начало</button>
+        <button class="Restart" onclick="Restart()">Начать заново</button>
+    </footer>
+</body>
+
+</html>

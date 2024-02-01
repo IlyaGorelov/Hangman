@@ -1,0 +1,245 @@
+header {
+    background-color: #CDB3A4;
+    height: 100px;
+    width: 100%;
+    font-size: 90px;
+    margin-top: 0;
+    border-bottom: 10px solid brown;
+}
+
+header div {
+    margin-left: 50px;
+}
+
+main {
+    background-color: #ECCDB1;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+}
+
+img {
+    position: relative;
+    left: 45%;
+    height: 750px;
+}
+
+.bStart {
+    margin-left: 8%;
+    font-size: 100px;
+    background-color: bisque;
+    margin-top: 10%;
+    float: left;
+}
+
+.bStart:hover {
+    border-color: red;
+    color: brown;
+}
+
+footer {
+    background-color: #A96946;
+    border-top: 5px solid black;
+    height: 60px;
+    width: 100%;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 5600px) {
+    img {
+        height: 2500px;
+    }
+
+    footer {
+        height: 200px;
+        font-size: 150px;
+        border-top: 30px solid brown;
+    }
+
+    .bStart {
+        font-size: 300px;
+        margin-top: 10%;
+    }
+
+    header {
+        height: 250px;
+        font-size: 250px;
+        margin-top: 0;
+        border-bottom: 30px solid brown;
+    }
+
+    header div {
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 5000px) {
+    img {
+        height: 1700px;
+    }
+}
+
+@media screen and (max-width: 4000px) {
+    img {
+        height: 1200px;
+    }
+
+    footer {
+        height: 100px;
+        font-size: 70px;
+        border-top: 20px solid brown;
+    }
+
+    .bStart {
+        font-size: 170px;
+        margin-top: 10%;
+    }
+
+    header {
+        height: 150px;
+        font-size: 150px;
+        border-bottom: 20px solid brown;
+    }
+
+    header div {
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width: 2500px) {
+    img {
+        height: 800px;
+    }
+
+    .bStart {
+        font-size: 100px;
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    footer {
+        height: 70px;
+        font-size: 60px;
+        border-top: 15px solid brown;
+    }
+
+    header {
+        height: 90px;
+        font-size: 90px;
+        border-bottom: 15px solid brown;
+    }
+
+    header div {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    img {
+        height: 730px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    img {
+        height: 630px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    img {
+        height: 530px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    img {
+        height: 540px;
+    }
+
+    footer {
+        height: 50px;
+        font-size: 40px;
+        border-top: 10px solid brown;
+    }
+
+    header {
+        height: 50px;
+        font-size: 50px;
+        border-bottom: 10px solid brown;
+    }
+
+    header div {
+        margin-left: 50px;
+    }
+
+    .bStart {
+        font-size: 70px;
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    img {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    img {
+        height: 350px;
+    }
+
+    .bStart {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    img {
+        height: 250px;
+    }
+
+    .bStart {
+        font-size: 30px;
+    }
+
+    footer {
+        height: 30px;
+        font-size: 10px;
+    }
+
+    header {
+        height: 30px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    img {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    img {
+        height: 100px;
+    }
+
+    .bStart {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    img {
+        height: 50px;
+        left: 30%;
+    }
+
+    .bStart {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+}
