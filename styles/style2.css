@@ -1,0 +1,436 @@
+#countOfSteps {
+    text-align: center;
+    font-size: 300px;
+    background-color: #CDB3A4;
+    border-bottom: 30px solid brown;
+}
+
+main {
+    background-color: #ECCDB1;
+    height: fit-content;
+    padding-bottom: 200px;
+}
+
+#word>* {
+    margin-top: 10%;
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: chocolate;
+}
+
+#image {
+    margin-left: 70%;
+    margin-top: -1500px;
+}
+
+#image img {
+    height: 2000px;
+}
+
+#input {
+    width: 200px;
+    font-size: 300px;
+    border-radius: 10px;
+}
+
+button {
+    border-radius: 30px;
+    font-size: 300px;
+    background-color: bisque;
+}
+
+button:hover {
+    border-color: red;
+    color: brown;
+}
+
+#win {
+    position: absolute;
+    top: 6%;
+    left: 0;
+    visibility: hidden;
+    width: 100%;
+
+}
+
+.check {
+    padding-top: 100px;
+    padding-left: 10%;
+}
+
+#wrongLetters {
+    padding-left: 10%;
+    font-size: 100px;
+}
+
+footer {
+    background-color: #A96946;
+    border-top: 30px solid brown;
+    height: 300px;
+}
+
+footer button {
+    margin-left: 10%;
+    height: 150px;
+    font-size: 100px;
+}
+
+#Answer {
+    padding-left: 10%;
+    font-size: 300px;
+    height: 100px;
+}
+
+
+
+@media screen and (max-width: 4500px) {
+    #image img {
+        height: 1000px;
+    }
+
+    #image {
+        margin-top: -1200px;
+    }
+
+    main {
+
+        padding-bottom: 500px;
+    }
+}
+
+@media screen and (max-width: 3500px) {
+    #image img {
+        height: 1000px;
+    }
+
+    #image {
+        margin-top: -700px;
+    }
+
+    main {
+        padding-bottom: 10px;
+    }
+
+    #countOfSteps {
+        font-size: 200px;
+    }
+
+    button {
+        font-size: 100px;
+    }
+
+    #input {
+        width: 70px;
+        font-size: 100px;
+        border-radius: 10px;
+    }
+
+    #Answer {
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width: 2500px) {
+    #image img {
+        height: 500px;
+    }
+
+    #image {
+        margin-top: -700px;
+    }
+
+    main {
+        padding-bottom: 200px;
+    }
+
+    footer button {
+        margin-left: 10%;
+        height: 100px;
+        font-size: 50px;
+    }
+
+    footer {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    #image img {
+        height: 400px;
+    }
+
+    #image {
+        margin-top: -300px;
+    }
+
+    #countOfSteps {
+        font-size: 100px;
+        background-color: #CDB3A4;
+        border-bottom: 30px solid brown;
+    }
+
+    main {
+        padding-bottom: 80px;
+    }
+
+    .check {
+        padding-top: 0;
+    }
+
+    #countOfSteps {
+        font-size: 50px;
+        border-width: 10px;
+    }
+
+    footer {
+        height: 50px;
+    }
+
+    footer button {
+        font-size: 30px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    #word>* {
+        border-radius: 10px;
+    }
+
+    button {
+        font-size: 50px;
+        border-radius: 10px;
+    }
+
+    #input {
+        width: 40px;
+        font-size: 50px;
+        border-radius: 5px;
+    }
+
+    #Answer {
+        font-size: 50px;
+    }
+
+    #wrongLetters {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .check {
+        padding-top: 0;
+    }
+
+    #image img {
+        height: 300px;
+    }
+
+    #image {
+        margin-top: -300px;
+    }
+
+    #countOfSteps {
+        font-size: 50px;
+        border-bottom: 20px solid brown;
+    }
+
+    main {
+        padding-bottom: 100px;
+    }
+
+    #word>* {
+        border-radius: 10px;
+        margin-right: 5px;
+    }
+
+    button {
+        font-size: 30px;
+    }
+
+    #input {
+        width: 20px;
+        font-size: 30px;
+        border-radius: 5px;
+    }
+
+    #Answer {
+        font-size: 50px;
+    }
+
+    footer {
+        border-top: 20px solid brown;
+        height: 100px;
+    }
+
+    footer button {
+        margin-left: 10%;
+        height: 50px;
+        font-size: 30px;
+    }
+
+    #wrongLetters {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #image img {
+        height: 300px;
+    }
+
+    #image {
+        margin-top: -200px;
+    }
+
+    #countOfSteps {
+        font-size: 20px;
+        border-bottom: 5px solid brown;
+    }
+
+    main {
+        padding-bottom: 0px;
+    }
+
+    #word>* {
+        border-radius: 10px;
+    }
+
+    button {
+        font-size: 20px;
+        border-radius: 5px;
+    }
+
+    #input {
+        width: 15px;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+
+    #Answer {
+        font-size: 20px;
+    }
+
+    footer {
+        border-top: 5px solid brown;
+        height: 20px;
+    }
+
+    footer button {
+        margin-left: 10%;
+        height: 15px;
+        font-size: 10px;
+    }
+
+    #wrongLetters {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #image img {
+        height: 100px;
+    }
+
+    #image {
+        margin-top: -200px;
+    }
+
+    #countOfSteps {
+        font-size: 20px;
+        border-bottom: 5px solid brown;
+    }
+
+    main {
+        padding-bottom: 50px;
+    }
+
+    #word>* {
+        border-radius: 3px;
+        margin-right: 1px;
+    }
+
+    button {
+        font-size: 10px;
+        border-radius: 5px;
+    }
+
+    #input {
+        width: 15px;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+
+    #Answer {
+        font-size: 20px;
+    }
+
+    footer {
+        border-top: 5px solid brown;
+        height: 20px;
+    }
+
+    footer button {
+        margin-left: 10%;
+        height: 15px;
+        font-size: 10px;
+    }
+
+    #wrongLetters {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #image img {
+        height: 70px;
+    }
+
+    #image {
+        margin-top: -150px;
+    }
+
+    #countOfSteps {
+        font-size: 20px;
+        border-bottom: 5px solid brown;
+    }
+
+    main {
+        padding-bottom: 50px;
+    }
+
+    #word>* {
+        border-radius: 3px;
+        margin-right: 1px;
+    }
+
+    button {
+        font-size: 10px;
+        border-radius: 5px;
+    }
+
+    #input {
+        width: 15px;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+
+    #Answer {
+        font-size: 20px;
+    }
+
+    footer {
+        border-top: 5px solid brown;
+        height: 20px;
+    }
+
+    footer button {
+        margin-left: 10%;
+        height: 15px;
+        font-size: 10px;
+    }
+
+    #wrongLetters {
+        font-size: 20px;
+    }
+}
